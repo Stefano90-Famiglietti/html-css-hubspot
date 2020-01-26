@@ -4,21 +4,20 @@
     box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
     content:'';
     display: table;
     clear: both;
 }
 
-.blue{
-    background-color: #33475b;
+.blue {
+    background-color: aquamarine;
 }
 
 .container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    /* DA CANCELLARE*/
     height: 150px;
 }
 
@@ -43,31 +42,37 @@
 }
 
 .container i {
-    font-size: 30px;
-    margin:10px;
+    margin-top: 10px;
+    font-size: 2pc;
     float:left;
 }
 
-.container span {
+.container span{
     font-size: 15px;
-    margin:10px;
-    padding: 5px;
+    margin:20px;
+    padding: 20px;
     color: teal;
     float: left;
 }
 
 .containerlogo {
+    margin-left: -60px;
     float:left;
 }
 
 img {
-    padding: 5px;
+    padding-top: 90px;
+
 }
 
 #navbar {
     float:right;
-    padding-top: 1%;
+    padding-top: 7%;
     line-height: 30px;
+}
+
+.lista {
+    margin-bottom: 20px;
 }
 
 #navbar li {
@@ -87,13 +92,16 @@ li a {
     width: 80%;
     height: 35px;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 .testo p {
     float: left;
     color: white;
-    width: 59%;
-    margin-left: 30px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: -85px;
+    font-size: 18px;
     position: absolute;
     transform: translateY(-50%);
 }
@@ -117,7 +125,7 @@ li a {
     color: teal;
     position: absolute;
     margin-top: 10%;
-    width: 34%;
+    width: 33%;
     transform: translateY(-50%);
 }
 
@@ -138,6 +146,297 @@ h3 {
     background-color: salmon;
     border: 2px orange;
     border-radius: 2px;
-    padding: 20px 30px;
+    padding: 20px 80px;
 
+}
+
+.containervuoto {
+    height: 50px;
+    background-color: cyan;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+}
+
+.bloccodue {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* DA CANCELLARE*/
+    height: 400px;
+}
+
+.cubo {
+    text-align: center;
+}
+
+img {
+    padding-top: 60px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.containerquattro .clearfix {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bloccotre {
+    width:300px;
+    max-width: 1200px;
+    margin-left: 250px;
+    float: left;
+    height: 370px;
+}
+
+.uno {
+    color: white;
+    background-color: salmon;
+    border: 2px orange;
+    border-radius: 2px;
+    padding: 20px 65px;
+    margin-left: 80px;
+}
+
+.bloccoquattro {
+    float: left;
+    padding-top:60px;
+    margin-left: 50px;
+}
+
+h2 {
+    color: teal;
+}
+
+span {
+    float: left;
+    color: teal;
+    position: absolute;
+    margin-top: 1%;
+    width: 40%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+h4 {
+    float: left;
+    position: absolute;
+    padding-top: 5%;
+    color: teal;
+}
+
+#navbaruno {
+    float: right;
+    padding-top: 35%;
+    line-height: 30px;
+}
+
+#navbaruno li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    padding: 0 2px;
+}
+
+ul a {
+    color: teal;
+}
+
+.containerquinto {
+    width: 80%;
+    height:800px;
+    margin: 0 auto;
+}
+
+.bloccoquinto {
+    width: 30%;
+    height: 410px;
+    float: left;
+    margin-top: 5%;
+}
+
+h1 {
+    color: teal;
+    text-align: center;
+}
+
+h5 {
+
+    float: left;
+    color: white;
+    position: absolute;
+    line-height: 20px;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 18%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+
+img {
+    margin-left: 60px;
+    margin-top: -5px;
+}
+
+
+.bloccosei {
+    width: 30%;
+    height: 410px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.titolodue h5 {
+    float: left;
+    color: white;
+    position: absolute;
+    line-height: 20px;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 18%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+
+.immagine {
+    margin-right: 70px;
+    margin-top: 75px;
+}
+
+
+
+.bloccosette {
+    width: 30%;
+    height: 410px;
+    float: left;
+    margin-top: 5%;
+}
+
+.ciao {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.bloccootto {
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#navbardue li {
+    list-style: none;
+    margin: 10px;
+    padding: 0 2px;
+}
+
+.get {
+    background-color: salmon;
+    border: 2px orange;
+    border-radius: 2px;
+    padding: 10px 25px;
+    margin-left: 100px;
+    color: white;
+}
+
+.blocconove {
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.bloccodieci {
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin-top: 5%;
+}
+
+.containersei {
+    width: 80%;
+    height:600px;
+    margin: 0 auto;
+    /* DA CANCELLARE*/
+    background-color: cyan;
+}
+
+.bloccoundici {
+    height: 6   00px;
+    border: 1px solid black;
+}
+
+.h2 {
+    margin-left: 270px;
+    margin-top: 100px;
+    width: 35%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+h2 {
+    color: white;
+}
+
+.yes {
+    margin-top: 120px;
+    margin-left: 270px;
+    line-height: 30px;
+    width: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.containeryellow {
+    height: 700px;
+    background-color: yellow;
+}
+
+.bloccododici {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+h6 {
+    font-size: 2pc;
+    color: royalblue;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.go {
+    padding-top: 60px;
+    padding-left: 50px;
+    font-size: 1pc;
+    color: white;
+    line-height: 25px;
+    width: 40%;
+    position: absolute;
+    transform: translateY(-50%);
 }
